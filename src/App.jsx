@@ -1,11 +1,14 @@
-import "./App.css";
-import Login from "./Pages/Login/Login";
+import Home from "./Pages/Home/Home";
+// import Login from "./Pages/Login/Login";
+// import Register from "./Pages/Register/Register";
 
 function App() {
   return (
-    <div>
-      <Login></Login>
-    </div>
+    <>
+      {/* <Login></Login>
+      <Register></Register> */}
+      <Home></Home>
+    </>
   );
 }
 
