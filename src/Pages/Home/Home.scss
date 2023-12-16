@@ -33,24 +33,36 @@
                             color: lightgrey;
                         }
                     }
-            
                 }
-                .userChat{
-                    padding: 10px;
-                    display: flex;
-                    align-items: center;
-                    color: white;
-                    gap: 10px;
+            }
+            .userChat{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                color: white;
+                gap: 10px;
 
-                    &:hover{
-                        background-color: #2f2d52;
+                &:hover{
+                    background-color: #2f2d52;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .userChatInfo{
+                    span{
+                        
+                        font-weight: 500;
                     }
-
-                    img{
-                        height: 50px;
-                        width: 50px;
-                        border-radius: 50%;
-                        object-fit: cover;
+                    p{
+                        margin-bottom: 0px;
+                        margin-top: 3px;
+                        font-size: 14px;
+                        color: lightgray;
                     }
                 }
             }
